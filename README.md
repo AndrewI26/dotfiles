@@ -1,6 +1,6 @@
 # dotfiles
 
-Source of truth for config files.
+Source of truth for my config files.
 
 ## Adding new configs
 
