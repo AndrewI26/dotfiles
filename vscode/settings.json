@@ -1,0 +1,110 @@
+{
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "editor.formatOnSave": true,
+  "editor.lineNumbers": "relative",
+  "editor.fontLigatures": true,
+  "terminal.integrated.fontFamily": "JetbrainsMono Nerd Font Mono",
+  "editor.fontFamily": "JetbrainsMono Nerd Font Mono",
+  "git.autofetch": true,
+  "vscode_custom_css.imports": [
+    "file:///Users/andrewiammancini/Library/Application%20Support/Code/User/custom.css",
+  ],
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"],
+    },
+  ],
+  "workbench.editor.enablePreview": false,
+  "editor.formatOnSaveMode": "file",
+  "breadcrumbs.enabled": false,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "window.customTitleBarVisibility": "never",
+  "editor.guides.indentation": false,
+  "editor.semanticHighlighting.enabled": true,
+  "terminal.integrated.minimumContrastRatio": 1,
+  "editor.minimap.enabled": false,
+
+  "editor.guides.bracketPairs": false,
+  "editor.guides.highlightActiveIndentation": false,
+  "editor.renderLineHighlight": "none",
+
+  // Visual changes
+  "custom-ui-style.electron": {
+    // "opacity": 0.9,
+    "frame": false,
+    "visualEffectState": "active",
+  },
+  "custom-ui-style.font.sansSerif": "Jetbrains Mono Nerd Font",
+  "workbench.sideBar.location": "right",
+  "workbench.iconTheme": "a-file-icon-vscode",
+  "editor.stickyScroll.enabled": false,
+  "workbench.startupEditor": "none",
+  "workbench.welcomePage.walkthroughs.openOnInstall": false,
+  "editor.scrollbar.verticalScrollbarSize": 0,
+  "editor.scrollbar.horizontalScrollbarSize": 0,
+  "editor.occurrencesHighlight": "off",
+  "vim.scroll": 18,
+  "editor.cursorSurroundingLines": 15,
+  "remote.SSH.configFile": "~/.ssh/config",
+  "remote.SSH.path": "/usr/bin/ssh",
+  "remote.SSH.useLocalServer": false,
+  "remote.SSH.useExecServer": false,
+  "remote.SSH.remotePlatform": {
+    "campus-cart-ec2": "linux",
+    "loo": "linux"
+  },
+  "workbench.activityBar.location": "hidden",
+  "workbench.panel.showLabels": false,
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "[markdown]": {
+    "editor.codeActionsOnSave": {
+        "source.fixAll.markdownlint": "explicit"
+    },
+  },
+  "editor.renderFinalNewline": "dimmed",
+  "files.insertFinalNewline": true,
+  "notebook.insertFinalNewline": true,
+  "terminal.integrated.fontLigatures.enabled": true,
+  "workbench.editor.empty.hint": "hidden",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.biome": "explicit",
+      "source.organizeImports.biome": "explicit"
+    }
+  },
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports.ruff": "explicit",
+      "source.fixAll.ruff": "explicit"
+    }
+  },
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "python.analysis.typeCheckingMode": "standard",
+  "claudeCode.preferredLocation": "panel",
+  "json.schemaDownload.trustedDomains": {
+    "https://schemastore.azurewebsites.net/": true,
+    "https://raw.githubusercontent.com/microsoft/vscode/": true,
+    "https://raw.githubusercontent.com/devcontainers/spec/": true,
+    "https://www.schemastore.org/": true,
+    "https://json.schemastore.org/": true,
+    "https://json-schema.org/": true,
+    "https://developer.microsoft.com/json-schemas/": true,
+    "https://biomejs.dev": true
+  },
+
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "chat.titleBar.openInAgentsWindow.enabled": false,
+  "workbench.browser.showInTitleBar": false,
+  "editor.experimental.preferTreeSitter.typescript": true,
+  "settingsSync.keybindingsPerPlatform": false,
+  "settingsSync.ignoredSettings": [],
+}

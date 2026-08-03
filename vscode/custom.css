@@ -1,0 +1,26 @@
+/* Project Title */
+.titlebar {
+  display: none !important;
+}
+
+/* From post*/
+.title-actions {
+  display: none !important;
+}
+
+.editor-widget.find-widget {
+  box-shadow: none !important;
+}
+
+.filematch .monaco-icon-label:before,
+.custom-list-row.results .monaco-list-row .monaco-icon-label:before {
+  background-position: 0 bottom !important;
+}
+
+.filematch .monaco-count-badge {
+  padding: 5px 6px 0 6px !important;
+}
+
+.sidebar .title-label {
+  padding: 0 !important;
+}
