@@ -107,4 +107,8 @@
   "editor.experimental.preferTreeSitter.typescript": true,
   "settingsSync.keybindingsPerPlatform": false,
   "settingsSync.ignoredSettings": [],
+  "python.terminal.useEnvFile": true,
+  "editor.inlineSuggest.edits.allowCodeShifting": "never",
+  "editor.inlineSuggest.edits.renderSideBySide": "never",
+  "github.copilot.nextEditSuggestions.enabled": false,
 }
