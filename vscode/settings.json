@@ -111,4 +111,11 @@
   "editor.inlineSuggest.edits.allowCodeShifting": "never",
   "editor.inlineSuggest.edits.renderSideBySide": "never",
   "github.copilot.nextEditSuggestions.enabled": false,
+  "magicRacket.languageServer.enabled": true,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  }
 }

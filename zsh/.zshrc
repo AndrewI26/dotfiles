@@ -15,20 +15,3 @@ source $HOMEBREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 # bun completions
 [ -s "/Users/andrewiammancini/.bun/_bun" ] && source "/Users/andrewiammancini/.bun/_bun"
 
-# Aliases
-alias gs='git status'
-
-alias ga='git add'
-alias gaa='git add .'
-
-alias gc='git commit'
-alias gcm='git commit -m'
-
-alias gac='git add . && git commit -m'
-
-alias gp='git push'
-alias gl='git pull'
-
-
-
-
